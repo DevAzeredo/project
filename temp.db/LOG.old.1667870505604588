@@ -1,0 +1,285 @@
+2022/11/07-22:20:22.131845 5bec RocksDB version: 7.4.4
+2022/11/07-22:20:22.133585 5bec Compile date 2022-07-19 08:49:59
+2022/11/07-22:20:22.133608 5bec DB SUMMARY
+2022/11/07-22:20:22.133623 5bec DB Session ID:  ZNQF5LX1LJ7XSIM3EC7J
+2022/11/07-22:20:22.134705 5bec CURRENT file:  CURRENT
+2022/11/07-22:20:22.134722 5bec IDENTITY file:  IDENTITY
+2022/11/07-22:20:22.134777 5bec MANIFEST file:  MANIFEST-000055 size: 366 Bytes
+2022/11/07-22:20:22.134792 5bec SST files in temp.db dir, Total Num: 2, files: 000040.sst 000045.sst 
+2022/11/07-22:20:22.134803 5bec Write Ahead Log file in temp.db: 000046.log size: 0 ; 000050.log size: 0 ; 000054.log size: 0 ; 
+2022/11/07-22:20:22.134814 5bec                         Options.error_if_exists: 0
+2022/11/07-22:20:22.134823 5bec                       Options.create_if_missing: 1
+2022/11/07-22:20:22.135008 5bec                         Options.paranoid_checks: 1
+2022/11/07-22:20:22.135016 5bec             Options.flush_verify_memtable_count: 1
+2022/11/07-22:20:22.135020 5bec                               Options.track_and_verify_wals_in_manifest: 0
+2022/11/07-22:20:22.135024 5bec        Options.verify_sst_unique_id_in_manifest: 0
+2022/11/07-22:20:22.135027 5bec                                     Options.env: 000001F193E07FB0
+2022/11/07-22:20:22.135031 5bec                                      Options.fs: WinFS
+2022/11/07-22:20:22.135043 5bec                                Options.info_log: 000001F193DF21B0
+2022/11/07-22:20:22.135047 5bec                Options.max_file_opening_threads: 16
+2022/11/07-22:20:22.135050 5bec                              Options.statistics: 0000000000000000
+2022/11/07-22:20:22.135053 5bec                               Options.use_fsync: 0
+2022/11/07-22:20:22.135057 5bec                       Options.max_log_file_size: 0
+2022/11/07-22:20:22.135060 5bec                  Options.max_manifest_file_size: 1073741824
+2022/11/07-22:20:22.135064 5bec                   Options.log_file_time_to_roll: 0
+2022/11/07-22:20:22.135067 5bec                       Options.keep_log_file_num: 1000
+2022/11/07-22:20:22.135071 5bec                    Options.recycle_log_file_num: 0
+2022/11/07-22:20:22.135074 5bec                         Options.allow_fallocate: 1
+2022/11/07-22:20:22.135077 5bec                        Options.allow_mmap_reads: 0
+2022/11/07-22:20:22.135081 5bec                       Options.allow_mmap_writes: 0
+2022/11/07-22:20:22.135084 5bec                        Options.use_direct_reads: 0
+2022/11/07-22:20:22.135087 5bec                        Options.use_direct_io_for_flush_and_compaction: 0
+2022/11/07-22:20:22.135090 5bec          Options.create_missing_column_families: 0
+2022/11/07-22:20:22.135094 5bec                              Options.db_log_dir: 
+2022/11/07-22:20:22.135097 5bec                                 Options.wal_dir: 
+2022/11/07-22:20:22.135101 5bec                Options.table_cache_numshardbits: 6
+2022/11/07-22:20:22.135104 5bec                         Options.WAL_ttl_seconds: 0
+2022/11/07-22:20:22.135107 5bec                       Options.WAL_size_limit_MB: 0
+2022/11/07-22:20:22.135110 5bec                        Options.max_write_batch_group_size_bytes: 1048576
+2022/11/07-22:20:22.135114 5bec             Options.manifest_preallocation_size: 4194304
+2022/11/07-22:20:22.135117 5bec                     Options.is_fd_close_on_exec: 1
+2022/11/07-22:20:22.135121 5bec                   Options.advise_random_on_open: 1
+2022/11/07-22:20:22.135124 5bec                   Options.experimental_mempurge_threshold: 0.000000
+2022/11/07-22:20:22.135134 5bec                    Options.db_write_buffer_size: 0
+2022/11/07-22:20:22.135137 5bec                    Options.write_buffer_manager: 000001F193D9CAD0
+2022/11/07-22:20:22.135141 5bec         Options.access_hint_on_compaction_start: 1
+2022/11/07-22:20:22.135144 5bec           Options.random_access_max_buffer_size: 1048576
+2022/11/07-22:20:22.135147 5bec                      Options.use_adaptive_mutex: 0
+2022/11/07-22:20:22.135151 5bec                            Options.rate_limiter: 0000000000000000
+2022/11/07-22:20:22.135155 5bec     Options.sst_file_manager.rate_bytes_per_sec: 0
+2022/11/07-22:20:22.135187 5bec                       Options.wal_recovery_mode: 2
+2022/11/07-22:20:22.135193 5bec                  Options.enable_thread_tracking: 0
+2022/11/07-22:20:22.135196 5bec                  Options.enable_pipelined_write: 0
+2022/11/07-22:20:22.135200 5bec                  Options.unordered_write: 0
+2022/11/07-22:20:22.135203 5bec         Options.allow_concurrent_memtable_write: 1
+2022/11/07-22:20:22.135206 5bec      Options.enable_write_thread_adaptive_yield: 1
+2022/11/07-22:20:22.135210 5bec             Options.write_thread_max_yield_usec: 100
+2022/11/07-22:20:22.135213 5bec            Options.write_thread_slow_yield_usec: 3
+2022/11/07-22:20:22.135216 5bec                               Options.row_cache: None
+2022/11/07-22:20:22.135220 5bec                              Options.wal_filter: None
+2022/11/07-22:20:22.135223 5bec             Options.avoid_flush_during_recovery: 0
+2022/11/07-22:20:22.135226 5bec             Options.allow_ingest_behind: 0
+2022/11/07-22:20:22.135230 5bec             Options.two_write_queues: 0
+2022/11/07-22:20:22.135233 5bec             Options.manual_wal_flush: 0
+2022/11/07-22:20:22.135236 5bec             Options.wal_compression: 0
+2022/11/07-22:20:22.135239 5bec             Options.atomic_flush: 0
+2022/11/07-22:20:22.135243 5bec             Options.avoid_unnecessary_blocking_io: 0
+2022/11/07-22:20:22.135246 5bec                 Options.persist_stats_to_disk: 0
+2022/11/07-22:20:22.135249 5bec                 Options.write_dbid_to_manifest: 0
+2022/11/07-22:20:22.135253 5bec                 Options.log_readahead_size: 0
+2022/11/07-22:20:22.135256 5bec                 Options.file_checksum_gen_factory: Unknown
+2022/11/07-22:20:22.135260 5bec                 Options.best_efforts_recovery: 0
+2022/11/07-22:20:22.135263 5bec                Options.max_bgerror_resume_count: 2147483647
+2022/11/07-22:20:22.135267 5bec            Options.bgerror_resume_retry_interval: 1000000
+2022/11/07-22:20:22.135270 5bec             Options.allow_data_in_errors: 0
+2022/11/07-22:20:22.135273 5bec             Options.db_host_id: __hostname__
+2022/11/07-22:20:22.135276 5bec             Options.enforce_single_del_contracts: true
+2022/11/07-22:20:22.135280 5bec             Options.max_background_jobs: 2
+2022/11/07-22:20:22.135284 5bec             Options.max_background_compactions: -1
+2022/11/07-22:20:22.135289 5bec             Options.max_subcompactions: 1
+2022/11/07-22:20:22.135292 5bec             Options.avoid_flush_during_shutdown: 0
+2022/11/07-22:20:22.135295 5bec           Options.writable_file_max_buffer_size: 1048576
+2022/11/07-22:20:22.135299 5bec             Options.delayed_write_rate : 16777216
+2022/11/07-22:20:22.135302 5bec             Options.max_total_wal_size: 0
+2022/11/07-22:20:22.135305 5bec             Options.delete_obsolete_files_period_micros: 21600000000
+2022/11/07-22:20:22.135309 5bec                   Options.stats_dump_period_sec: 600
+2022/11/07-22:20:22.135312 5bec                 Options.stats_persist_period_sec: 600
+2022/11/07-22:20:22.135316 5bec                 Options.stats_history_buffer_size: 1048576
+2022/11/07-22:20:22.135319 5bec                          Options.max_open_files: -1
+2022/11/07-22:20:22.135322 5bec                          Options.bytes_per_sync: 0
+2022/11/07-22:20:22.135325 5bec                      Options.wal_bytes_per_sync: 0
+2022/11/07-22:20:22.135329 5bec                   Options.strict_bytes_per_sync: 0
+2022/11/07-22:20:22.135332 5bec       Options.compaction_readahead_size: 0
+2022/11/07-22:20:22.135335 5bec                  Options.max_background_flushes: -1
+2022/11/07-22:20:22.135339 5bec Compression algorithms supported:
+2022/11/07-22:20:22.135349 5bec 	kZSTD supported: 1
+2022/11/07-22:20:22.135353 5bec 	kSnappyCompression supported: 1
+2022/11/07-22:20:22.135361 5bec 	kBZip2Compression supported: 1
+2022/11/07-22:20:22.135365 5bec 	kZlibCompression supported: 1
+2022/11/07-22:20:22.135368 5bec 	kLZ4Compression supported: 1
+2022/11/07-22:20:22.135371 5bec 	kXpressCompression supported: 0
+2022/11/07-22:20:22.135397 5bec 	kLZ4HCCompression supported: 1
+2022/11/07-22:20:22.135403 5bec 	kZSTDNotFinalCompression supported: 1
+2022/11/07-22:20:22.135409 5bec Fast CRC32 supported: Not supported on x86
+2022/11/07-22:20:22.135413 5bec DMutex implementation: std::mutex
+2022/11/07-22:20:22.136305 5bec [_set.cc:4948] Recovering from manifest file: temp.db/MANIFEST-000055
+2022/11/07-22:20:22.136860 5bec [cksdb/db/column_family.cc:614] --------------- Options for column family [default]:
+2022/11/07-22:20:22.136869 5bec               Options.comparator: leveldb.BytewiseComparator
+2022/11/07-22:20:22.136873 5bec           Options.merge_operator: None
+2022/11/07-22:20:22.136876 5bec        Options.compaction_filter: None
+2022/11/07-22:20:22.136879 5bec        Options.compaction_filter_factory: None
+2022/11/07-22:20:22.136883 5bec  Options.sst_partitioner_factory: None
+2022/11/07-22:20:22.136886 5bec         Options.memtable_factory: SkipListFactory
+2022/11/07-22:20:22.136889 5bec            Options.table_factory: BlockBasedTable
+2022/11/07-22:20:22.136934 5bec            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (000001F193DE3B60)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 1
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  pin_top_level_index_and_filter: 1
+  index_type: 0
+  data_block_index_type: 0
+  index_shortening: 1
+  data_block_hash_table_util_ratio: 0.750000
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 000001F193E08450
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 8388608
+    num_shard_bits : 4
+    strict_capacity_limit : 0
+    memory_allocator : None
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  metadata_block_size: 4096
+  partition_filters: 0
+  use_delta_encoding: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  verify_compression: 0
+  read_amp_bytes_per_bit: 0
+  format_version: 5
+  enable_index_compression: 1
+  block_align: 0
+  max_auto_readahead_size: 262144
+  prepopulate_block_cache: 0
+  initial_auto_readahead_size: 8192
+2022/11/07-22:20:22.136939 5bec        Options.write_buffer_size: 67108864
+2022/11/07-22:20:22.136942 5bec  Options.max_write_buffer_number: 2
+2022/11/07-22:20:22.136946 5bec          Options.compression: Snappy
+2022/11/07-22:20:22.136949 5bec                  Options.bottommost_compression: Disabled
+2022/11/07-22:20:22.136953 5bec       Options.prefix_extractor: nullptr
+2022/11/07-22:20:22.136956 5bec   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2022/11/07-22:20:22.136959 5bec             Options.num_levels: 7
+2022/11/07-22:20:22.136963 5bec        Options.min_write_buffer_number_to_merge: 1
+2022/11/07-22:20:22.136966 5bec     Options.max_write_buffer_number_to_maintain: 0
+2022/11/07-22:20:22.136969 5bec     Options.max_write_buffer_size_to_maintain: 134217728
+2022/11/07-22:20:22.136973 5bec            Options.bottommost_compression_opts.window_bits: -14
+2022/11/07-22:20:22.136976 5bec                  Options.bottommost_compression_opts.level: 32767
+2022/11/07-22:20:22.136980 5bec               Options.bottommost_compression_opts.strategy: 0
+2022/11/07-22:20:22.136983 5bec         Options.bottommost_compression_opts.max_dict_bytes: 0
+2022/11/07-22:20:22.136986 5bec         Options.bottommost_compression_opts.zstd_max_train_bytes: 0
+2022/11/07-22:20:22.136990 5bec         Options.bottommost_compression_opts.parallel_threads: 1
+2022/11/07-22:20:22.136993 5bec                  Options.bottommost_compression_opts.enabled: false
+2022/11/07-22:20:22.136996 5bec         Options.bottommost_compression_opts.max_dict_buffer_bytes: 0
+2022/11/07-22:20:22.137000 5bec         Options.bottommost_compression_opts.use_zstd_dict_trainer: true
+2022/11/07-22:20:22.137008 5bec            Options.compression_opts.window_bits: -14
+2022/11/07-22:20:22.137012 5bec                  Options.compression_opts.level: 32767
+2022/11/07-22:20:22.137017 5bec               Options.compression_opts.strategy: 0
+2022/11/07-22:20:22.137021 5bec         Options.compression_opts.max_dict_bytes: 0
+2022/11/07-22:20:22.137025 5bec         Options.compression_opts.zstd_max_train_bytes: 0
+2022/11/07-22:20:22.137028 5bec         Options.compression_opts.use_zstd_dict_trainer: true
+2022/11/07-22:20:22.137031 5bec         Options.compression_opts.parallel_threads: 1
+2022/11/07-22:20:22.137035 5bec                  Options.compression_opts.enabled: false
+2022/11/07-22:20:22.137038 5bec         Options.compression_opts.max_dict_buffer_bytes: 0
+2022/11/07-22:20:22.137041 5bec      Options.level0_file_num_compaction_trigger: 4
+2022/11/07-22:20:22.137045 5bec          Options.level0_slowdown_writes_trigger: 20
+2022/11/07-22:20:22.137048 5bec              Options.level0_stop_writes_trigger: 36
+2022/11/07-22:20:22.137051 5bec                   Options.target_file_size_base: 67108864
+2022/11/07-22:20:22.137055 5bec             Options.target_file_size_multiplier: 1
+2022/11/07-22:20:22.137058 5bec                Options.max_bytes_for_level_base: 268435456
+2022/11/07-22:20:22.137061 5bec Options.level_compaction_dynamic_level_bytes: 0
+2022/11/07-22:20:22.137065 5bec          Options.max_bytes_for_level_multiplier: 10.000000
+2022/11/07-22:20:22.137069 5bec Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2022/11/07-22:20:22.137073 5bec Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2022/11/07-22:20:22.137076 5bec Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2022/11/07-22:20:22.137079 5bec Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2022/11/07-22:20:22.137083 5bec Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2022/11/07-22:20:22.137086 5bec Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2022/11/07-22:20:22.137089 5bec Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2022/11/07-22:20:22.137093 5bec       Options.max_sequential_skip_in_iterations: 8
+2022/11/07-22:20:22.137096 5bec                    Options.max_compaction_bytes: 1677721600
+2022/11/07-22:20:22.137099 5bec                        Options.arena_block_size: 1048576
+2022/11/07-22:20:22.137103 5bec   Options.soft_pending_compaction_bytes_limit: 68719476736
+2022/11/07-22:20:22.137106 5bec   Options.hard_pending_compaction_bytes_limit: 274877906944
+2022/11/07-22:20:22.137110 5bec                Options.disable_auto_compactions: 0
+2022/11/07-22:20:22.137115 5bec                        Options.compaction_style: kCompactionStyleLevel
+2022/11/07-22:20:22.137119 5bec                          Options.compaction_pri: kMinOverlappingRatio
+2022/11/07-22:20:22.137122 5bec Options.compaction_options_universal.size_ratio: 1
+2022/11/07-22:20:22.137126 5bec Options.compaction_options_universal.min_merge_width: 2
+2022/11/07-22:20:22.137129 5bec Options.compaction_options_universal.max_merge_width: 4294967295
+2022/11/07-22:20:22.137133 5bec Options.compaction_options_universal.max_size_amplification_percent: 200
+2022/11/07-22:20:22.137136 5bec Options.compaction_options_universal.compression_size_percent: -1
+2022/11/07-22:20:22.137140 5bec Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2022/11/07-22:20:22.137143 5bec Options.compaction_options_fifo.max_table_files_size: 1073741824
+2022/11/07-22:20:22.137147 5bec Options.compaction_options_fifo.allow_compaction: 0
+2022/11/07-22:20:22.137152 5bec                   Options.table_properties_collectors: 
+2022/11/07-22:20:22.137155 5bec                   Options.inplace_update_support: 0
+2022/11/07-22:20:22.137159 5bec                 Options.inplace_update_num_locks: 10000
+2022/11/07-22:20:22.137163 5bec               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2022/11/07-22:20:22.137167 5bec               Options.memtable_whole_key_filtering: 0
+2022/11/07-22:20:22.137170 5bec   Options.memtable_huge_page_size: 0
+2022/11/07-22:20:22.137173 5bec                           Options.bloom_locality: 0
+2022/11/07-22:20:22.137177 5bec                    Options.max_successive_merges: 0
+2022/11/07-22:20:22.137180 5bec                Options.optimize_filters_for_hits: 0
+2022/11/07-22:20:22.137212 5bec                Options.paranoid_file_checks: 0
+2022/11/07-22:20:22.137217 5bec                Options.force_consistency_checks: 1
+2022/11/07-22:20:22.137220 5bec                Options.report_bg_io_stats: 0
+2022/11/07-22:20:22.137224 5bec                               Options.ttl: 2592000
+2022/11/07-22:20:22.137227 5bec          Options.periodic_compaction_seconds: 0
+2022/11/07-22:20:22.137230 5bec                       Options.enable_blob_files: false
+2022/11/07-22:20:22.137234 5bec                           Options.min_blob_size: 0
+2022/11/07-22:20:22.137237 5bec                          Options.blob_file_size: 268435456
+2022/11/07-22:20:22.137241 5bec                   Options.blob_compression_type: NoCompression
+2022/11/07-22:20:22.137244 5bec          Options.enable_blob_garbage_collection: false
+2022/11/07-22:20:22.137247 5bec      Options.blob_garbage_collection_age_cutoff: 0.250000
+2022/11/07-22:20:22.137252 5bec Options.blob_garbage_collection_force_threshold: 1.000000
+2022/11/07-22:20:22.137256 5bec          Options.blob_compaction_readahead_size: 0
+2022/11/07-22:20:22.137259 5bec                Options.blob_file_starting_level: 0
+2022/11/07-22:20:22.141333 5bec [anifest file:%s succeeded,manifest_file_number is %llu, next_file_number is %llu, last_sequence is %llu, log_number is %llu,prev_log_number is %llu,max_column_family is %u,min_log_number_to_keep is %llu
+:4996] Recovered from manifest file:temp.db/MANIFEST-000055 succeeded,manifest_file_number is 55, next_file_number is 57, last_sequence is 5, log_number is 51,prev_log_number is 0,max_column_family is 0,min_log_number_to_keep is 42
+2022/11/07-22:20:22.141350 5bec [cksdb/db/version_set.cc:5005] Column family [default] (ID 0), log number is 51
+2022/11/07-22:20:22.141727 5bec [--- Unable to persist Options file:532] DB ID: 39596c08-5eff-11ed-b1c3-7085c2c9e8fd
+2022/11/07-22:20:22.144919 5bec EVENT_LOG_v1 {"time_micros": 1667870422144893, "job": 1, "event": "recovery_started", "wal_files": [46, 50, 54]}
+2022/11/07-22:20:22.144940 5bec [ to keep #%llu:924] Skipping log #46 since it is older than min log to keep #51
+2022/11/07-22:20:22.144945 5bec [ to keep #%llu:924] Skipping log #50 since it is older than min log to keep #51
+2022/11/07-22:20:22.144951 5bec [ll:937] Recovering log #54 mode 2
+2022/11/07-22:20:22.170643 5bec EVENT_LOG_v1 {"time_micros": 1667870422170632, "job": 1, "event": "recovery_finished"}
+2022/11/07-22:20:22.171163 5bec [ write %s
+:4467] Creating manifest 59
+2022/11/07-22:20:22.249690 5bec [erator its options.merge_operator is non-null:1965] SstFileManager instance 000001F193E1A210
+2022/11/07-22:20:22.251403 5bec DB pointer 000001F193E09F80
+2022/11/07-22:20:22.252143 77a8 [.cc:1043] ------- DUMPING STATS -------
+2022/11/07-22:20:22.252167 77a8 [Malloc STATS -------:1044] 
+** DB Stats **
+Uptime(secs): 0.1 total, 0.1 interval
+Cumulative writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 GB, 0.00 MB/s
+Cumulative WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Cumulative stall: 00:00:0.000 H:M:S, 0.0 percent
+Interval writes: 0 writes, 0 keys, 0 commit groups, 0.0 writes per commit group, ingest: 0.00 MB, 0.00 MB/s
+Interval WAL: 0 writes, 0 syncs, 0.00 writes per sync, written: 0.00 GB, 0.00 MB/s
+Interval stall: 00:00:0.000 H:M:S, 0.0 percent
+
+** Compaction Stats [default] **
+Level    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  L0      2/0    2.30 KB   0.5      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Sum      2/0    2.30 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+ Int      0/0    0.00 KB   0.0      0.0     0.0      0.0       0.0      0.0       0.0   0.0      0.0      0.0      0.00              0.00         0    0.000       0      0       0.0       0.0
+
+** Compaction Stats [default] **
+Priority    Files   Size     Score Read(GB)  Rn(GB) Rnp1(GB) Write(GB) Wnew(GB) Moved(GB) W-Amp Rd(MB/s) Wr(MB/s) Comp(sec) CompMergeCPU(sec) Comp(cnt) Avg(sec) KeyIn KeyDrop Rblob(GB) Wblob(GB)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Blob file count: 0, total size: 0.0 GB, garbage size: 0.0 GB, space amp: 0.0
+
+Uptime(secs): 0.1 total, 0.1 interval
+Flush(GB): cumulative 0.000, interval 0.000
+AddFile(GB): cumulative 0.000, interval 0.000
+AddFile(Total Files): cumulative 0, interval 0
+AddFile(L0 Files): cumulative 0, interval 0
+AddFile(Keys): cumulative 0, interval 0
+Cumulative compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Interval compaction: 0.00 GB write, 0.00 MB/s write, 0.00 GB read, 0.00 MB/s read, 0.0 seconds
+Stalls(count): 0 level0_slowdown, 0 level0_slowdown_with_compaction, 0 level0_numfiles, 0 level0_numfiles_with_compaction, 0 stop for pending_compaction_bytes, 0 slowdown for pending_compaction_bytes, 0 memtable_compaction, 0 memtable_slowdown, interval 0 total count
+Block cache LRUCache@000001F193E08450#30412 capacity: 8.00 MB collections: 1 last_copies: 0 last_secs: 0.000105 secs_since: 0
+Block cache entry stats(count,size,portion): Misc(1,0.00 KB,0%)
+
+** File Read Latency Histogram By Level [default] **
+2022/11/07-22:20:22.460164 5bec [ is empty:480] Shutdown: canceling all background work
+2022/11/07-22:20:22.795435 5bec [s:776] Ignoring error %s:710] Shutdown complete
